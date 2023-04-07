@@ -1,0 +1,29 @@
+.App {
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 200px;
+    height: 300px;
+}
+.calculator >*{
+    border: 1px solid black;
+    padding: 10px;
+}
+.row{
+    grid-column: 1/-1;
+    background-color: grey;
+}
+.btn:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+.btn-operate{
+background-color: aqua;
+}
+.btn-equal{
+    background-color: yellow;
+}
